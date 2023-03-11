@@ -4,7 +4,7 @@
   0.1: Introducir datos relativos a la BBDD
 
 1: Index.js principal
-  1.1: Crear conexión a BBDD
+1.1: Crear conexión a BBDD
   1.2: Crear función de comprobar conexión
   1.3: Crear index.js en la carpeta 'database'
   1.4: Mover la conexión y la función de comprobación al index de database.
