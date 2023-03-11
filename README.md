@@ -1,16 +1,16 @@
 # sequelize-project
 
 0: Crear .env <br>
-  0.1: Introducir datos relativos a la BBDD
-
-1: Index.js principal
-  1.1: Crear conexión a BBDD
-  1.2: Crear función de comprobar conexión
-  1.3: Crear index.js en la carpeta 'database'
-  1.4: Mover la conexión y la función de comprobación al index de database
-  1.5: Exportar la función de comprobación
-  1.6: Importar en index.js principal y comprobar que funciona igual
-
+  0.1: Introducir datos relativos a la BBDD<br>
+<br>
+1: Index.js principal<br>
+  1.1: Crear conexión a BBDD<br>
+  1.2: Crear función de comprobar conexión<br>
+  1.3: Crear index.js en la carpeta 'database'<br>
+  1.4: Mover la conexión y la función de comprobación al index de database<br>
+  1.5: Exportar la función de comprobación<br>
+  1.6: Importar en index.js principal y comprobar que funciona igual<br>
+<br>
 2: Asincronía
   2.1: Usar un console.log en el index.js principal para demostrar que se mostrará antes en la terminal que el mensaje de comprobación de conexión a BBDD.
   2.2: Crear función asíncrona en index.js que se encargue de la conexión a la base de datos. Introducir la función de comprobar conexión.
