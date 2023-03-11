@@ -4,12 +4,12 @@
   0.1: Introducir datos relativos a la BBDD
 
 1: Index.js principal
-  1.1: Crear conexión a BBDD.
-  1.2: Crear función de comprobar conexión.
-  1.3: Crear index.js en la carpeta 'database'.
-  1.4: Mover la conexión y la función de comprobación al index de database.
-  1.5: Exportar la función de comprobación.
-  1.6: Importar en index.js principal y comprobar que funciona igual.
+1.1: Crear conexión a BBDD
+  1.2: Crear función de comprobar conexión
+  1.3: Crear index.js en la carpeta 'database'
+  1.4: Mover la conexión y la función de comprobación al index de database
+  1.5: Exportar la función de comprobación
+  1.6: Importar en index.js principal y comprobar que funciona igual
 
 2: Asincronía
   2.1: Usar un console.log en el index.js principal para demostrar que se mostrará antes en la terminal que el mensaje de comprobación de conexión a BBDD.
