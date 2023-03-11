@@ -1,6 +1,6 @@
 # sequelize-project
 
-0: Crear .env
+0: Crear .env <br>
   0.1: Introducir datos relativos a la BBDD
 
 1: Index.js principal
