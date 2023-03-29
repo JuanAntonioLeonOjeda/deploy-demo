@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize')
 
-const sequelize = new Sequelize(`${process.env.DIALECT}://${process.env.USERNAME}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}`, {
+const sequelize = new Sequelize(`${process.env.DIALECT}://${process.env.DB_USERNAME}:${process.env.DB_PASS}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`, {
   logging: false
 })
 
@@ -17,7 +17,7 @@ async function checkConnection() {
 
 async function syncModels() {
   try {
-    await sequelize.sync({force: true})
+    await sequelize.sync()
     console.log('Models synchronized')
   } catch (error) {
     throw error
