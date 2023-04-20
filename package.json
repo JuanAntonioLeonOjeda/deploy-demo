@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/JuanAntonioLeonOjeda/sequelize-project.git"
   },
+  { 
+    "engines" : { 
+      "node" : ">=16.4.0 <17.0.0" 
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
