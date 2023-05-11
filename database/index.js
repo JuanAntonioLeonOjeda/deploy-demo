@@ -7,7 +7,8 @@ const { Sequelize } = require('sequelize')
 const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USERNAME, process.env.DB_PASS, {
   host: process.env.DB_HOST,
   dialect: process.env.DIALECT,
-  logging: false
+  logging: false,
+  dialectModule: require('mysql2')
 })
 
 //No es necesario incluir el puerto después de HOST si es el que viene por defecto (en el caso de mysql: 3306)
