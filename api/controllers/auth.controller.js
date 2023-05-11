@@ -23,12 +23,14 @@ async function signup(req, res) {
 }
 
 async function login(req, res) {
+  console.log(req.body)
   try {
     const user = await User.findOne({
       where: {
         email: req.body.email
       }
     })
+    console.log(user)
 
     if (!user) return res.status(404).send('Email or password incorrect')
 
@@ -42,6 +44,7 @@ async function login(req, res) {
     })
 
   } catch (error) {
+    console.log(error.message)
     return res.status(500).send(error.message)
   }
 }
