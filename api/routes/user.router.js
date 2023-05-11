@@ -15,7 +15,7 @@ const {
   checkAdmin
 } = require('../utils')
 
-router.get('/', checkAuth, checkAdmin, getAllUsers)
+router.get('/', getAllUsers)
 router.get('/profile', checkAuth, getProfile)
 router.get('/:id', checkAuth, getOneUser)
 
