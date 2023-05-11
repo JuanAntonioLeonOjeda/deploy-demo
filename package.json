@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/JuanAntonioLeonOjeda/sequelize-project.git"
   },
-  "engines" : { 
-    "node" : ">=16.14.0 <17.0.0" 
+  "engines": {
+    "node": ">=16.14.0 <17.0.0"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +27,7 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "morgan": "^1.10.0",
-    "mysql2": "^3.2.0",
+    "mysql2": "^3.3.0",
     "sequelize": "^6.29.3"
   }
 }
